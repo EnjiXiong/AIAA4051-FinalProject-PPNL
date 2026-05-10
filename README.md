@@ -1,7 +1,7 @@
 <h1 align="center">Can Small Seq2Seq Models Plan?<br/>Supervised Fine-Tuning, GRPO, and Executor-Guarded Tree Search<br/>for Grid Path Planning from Natural Language</h1>
 
 <p align="center">
-  <b>EnjiXiong</b> &nbsp;·&nbsp; <i>(team members)</i><br/>
+  <b>Enji Xiong</b> <b>Yuk Yeung Wong</b> &nbsp;·&nbsp; <i>(team members)</i><br/>
   AIAA 4051 — Natural Language Processing &nbsp;|&nbsp; Final Research Project, Spring 2026
 </p>
 
