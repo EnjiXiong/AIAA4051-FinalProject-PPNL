@@ -1,0 +1,1602 @@
+[
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (2,4), (6,6) and (6,0). Go from (0,2) to (6,4)",
+    "ground_truth": "right down down down right down down down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (0,1). Go from (6,2) to (2,1)",
+    "ground_truth": "up up up up left",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (6,3). Go from (5,3) to (4,5)",
+    "ground_truth": "up right right",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (5,1) and (3,2). Go from (0,0) to (4,2)",
+    "ground_truth": "right down down down down right",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (6,3), (4,4), (1,5), (3,4) and (1,4). Go from (2,6) to (1,2)",
+    "ground_truth": "left left left up left",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (0,6), (3,6), (0,2), (4,2) and (1,2). Go from (1,3) to (4,0)",
+    "ground_truth": "down left left left down down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (0,2), (2,6), (2,5), (1,5) and (3,1). Go from (2,4) to (6,6)",
+    "ground_truth": "down right right down down down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (1,1). Go from (0,2) to (2,6)",
+    "ground_truth": "right right right right down down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (1,5) and (6,3). Go from (0,3) to (0,4)",
+    "ground_truth": "right",
+    "raw_response": "right",
+    "extracted_actions": "right",
+    "success": true,
+    "error_type": "none"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (2,5). Go from (1,5) to (1,0)",
+    "ground_truth": "left left left left left",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (6,6), (5,6) and (0,1). Go from (4,4) to (0,2)",
+    "ground_truth": "up up up up left left",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (5,1) and (3,2). Go from (0,0) to (1,3)",
+    "ground_truth": "right right right down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (1,0) and (3,6). Go from (0,4) to (0,0)",
+    "ground_truth": "left left left left",
+    "raw_response": "left left left left",
+    "extracted_actions": "left left left left",
+    "success": true,
+    "error_type": "none"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (4,6), (0,2), (6,6) and (2,1). Go from (5,3) to (5,0)",
+    "ground_truth": "left left left",
+    "raw_response": "left left left",
+    "extracted_actions": "left left left",
+    "success": true,
+    "error_type": "none"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (2,6). Go from (3,5) to (3,3)",
+    "ground_truth": "left left",
+    "raw_response": "left left",
+    "extracted_actions": "left left",
+    "success": true,
+    "error_type": "none"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (0,3), (0,1) and (5,2). Go from (6,3) to (3,3)",
+    "ground_truth": "up up up",
+    "raw_response": "up up up",
+    "extracted_actions": "up up up",
+    "success": true,
+    "error_type": "none"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (6,3), (2,4), (3,5) and (2,6). Go from (2,2) to (5,3)",
+    "ground_truth": "right down down down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (0,2). Go from (5,0) to (3,5)",
+    "ground_truth": "up up right right right right right",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (0,2). Go from (0,6) to (0,5)",
+    "ground_truth": "left",
+    "raw_response": "left",
+    "extracted_actions": "left",
+    "success": true,
+    "error_type": "none"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (6,1). Go from (0,3) to (4,5)",
+    "ground_truth": "right right down down down down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (2,1), (5,4), (5,1), (6,2) and (0,1). Go from (6,3) to (3,2)",
+    "ground_truth": "up up up left",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (1,1), (0,2), (2,4), (5,6) and (1,4). Go from (6,0) to (1,2)",
+    "ground_truth": "up up up up right right up",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (0,3), (4,4), (2,3) and (1,0). Go from (0,0) to (1,5)",
+    "ground_truth": "right right down right right right",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (6,3), (0,3) and (1,1). Go from (4,6) to (5,0)",
+    "ground_truth": "left left left left left left down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (6,3). Go from (1,4) to (3,6)",
+    "ground_truth": "right right down down",
+    "raw_response": "down down right right",
+    "extracted_actions": "down down right right",
+    "success": true,
+    "error_type": "none"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (2,4), (6,2) and (6,6). Go from (2,0) to (0,2)",
+    "ground_truth": "up up right right",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (3,5), (3,1), (0,5), (6,3) and (6,5). Go from (0,4) to (5,1)",
+    "ground_truth": "left left down down down down left down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (2,1), (1,0) and (1,3). Go from (6,3) to (6,0)",
+    "ground_truth": "left left left",
+    "raw_response": "left left left",
+    "extracted_actions": "left left left",
+    "success": true,
+    "error_type": "none"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (0,3), (2,3) and (5,6). Go from (3,4) to (0,2)",
+    "ground_truth": "up up left left up",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (6,1), (3,6) and (2,4). Go from (5,3) to (1,4)",
+    "ground_truth": "up up up up right",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (4,6), (0,2), (6,6) and (2,1). Go from (2,2) to (2,5)",
+    "ground_truth": "right right right",
+    "raw_response": "right right right",
+    "extracted_actions": "right right right",
+    "success": true,
+    "error_type": "none"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (6,3), (2,4), (3,5) and (2,6). Go from (6,4) to (4,1)",
+    "ground_truth": "up up left left left",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (0,2), (2,6), (2,5), (1,5) and (3,1). Go from (4,4) to (2,4)",
+    "ground_truth": "up up",
+    "raw_response": "up up",
+    "extracted_actions": "up up",
+    "success": true,
+    "error_type": "none"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (4,1), (0,4), (6,3) and (1,4). Go from (1,1) to (0,1)",
+    "ground_truth": "up",
+    "raw_response": "up",
+    "extracted_actions": "up",
+    "success": true,
+    "error_type": "none"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (0,3), (0,1) and (5,2). Go from (6,1) to (4,6)",
+    "ground_truth": "up up right right right right right",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (6,3), (4,4), (1,5), (3,4) and (1,4). Go from (5,4) to (2,6)",
+    "ground_truth": "right up up up right",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (5,4) and (3,0). Go from (1,3) to (0,2)",
+    "ground_truth": "up left",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (0,4) and (5,0). Go from (0,0) to (1,6)",
+    "ground_truth": "right right right down right right right",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (1,0). Go from (3,1) to (0,1)",
+    "ground_truth": "up up up",
+    "raw_response": "up up up",
+    "extracted_actions": "up up up",
+    "success": true,
+    "error_type": "none"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (0,5) and (5,0). Go from (5,2) to (6,4)",
+    "ground_truth": "right right down",
+    "raw_response": "down right right",
+    "extracted_actions": "down right right",
+    "success": true,
+    "error_type": "none"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (5,4) and (3,0). Go from (2,4) to (2,2)",
+    "ground_truth": "left left",
+    "raw_response": "left left",
+    "extracted_actions": "left left",
+    "success": true,
+    "error_type": "none"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (3,6). Go from (0,3) to (0,0)",
+    "ground_truth": "left left left",
+    "raw_response": "left left left",
+    "extracted_actions": "left left left",
+    "success": true,
+    "error_type": "none"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (6,1), (3,6) and (2,4). Go from (1,6) to (6,2)",
+    "ground_truth": "left left left left down down down down down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (6,3), (2,4), (3,5) and (2,6). Go from (0,2) to (6,6)",
+    "ground_truth": "right down down down right down right right down down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (1,6), (5,0), (6,4), (3,1) and (2,2). Go from (5,1) to (6,5)",
+    "ground_truth": "right right right right down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (6,3), (4,4), (1,5), (3,4) and (1,4). Go from (6,6) to (2,6)",
+    "ground_truth": "up up up up",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (3,6). Go from (6,1) to (5,4)",
+    "ground_truth": "up right right right",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (2,1), (5,4), (5,1), (6,2) and (0,1). Go from (3,4) to (6,1)",
+    "ground_truth": "left left left down left down down right",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (4,5) and (0,1). Go from (2,1) to (0,5)",
+    "ground_truth": "up right up right right right",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (2,6), (2,3), (0,0), (5,4) and (1,1). Go from (1,2) to (1,4)",
+    "ground_truth": "right right",
+    "raw_response": "right right",
+    "extracted_actions": "right right",
+    "success": true,
+    "error_type": "none"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (2,5). Go from (5,0) to (0,2)",
+    "ground_truth": "up up up up up right right",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (6,1). Go from (2,4) to (5,6)",
+    "ground_truth": "right right down down down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (3,5), (3,2), (5,1) and (2,2). Go from (4,6) to (0,1)",
+    "ground_truth": "up up up up left left left left left",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (2,5). Go from (5,3) to (6,5)",
+    "ground_truth": "right right down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (2,4), (3,4), (5,6), (1,1) and (0,3). Go from (5,0) to (4,0)",
+    "ground_truth": "up",
+    "raw_response": "up",
+    "extracted_actions": "up",
+    "success": true,
+    "error_type": "none"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (0,6) and (5,3). Go from (1,6) to (1,0)",
+    "ground_truth": "left left left left left left",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (1,6), (5,0), (6,4), (3,1) and (2,2). Go from (0,1) to (6,5)",
+    "ground_truth": "right right right right down down down down down down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (6,3), (0,3) and (1,1). Go from (6,0) to (2,5)",
+    "ground_truth": "up up up up right right right right right",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (6,5), (2,1), (4,4), (5,5) and (0,6). Go from (6,6) to (6,4)",
+    "ground_truth": "up up left up left left down down right down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (5,4) and (3,0). Go from (3,6) to (0,1)",
+    "ground_truth": "up up up left left left left left",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (2,3). Go from (6,4) to (3,6)",
+    "ground_truth": "up up up right right",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (1,4), (4,0) and (5,2). Go from (4,4) to (0,3)",
+    "ground_truth": "up up left up up",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (6,3), (3,5), (3,2) and (1,5). Go from (4,6) to (2,0)",
+    "ground_truth": "up up left left left left left left",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (4,0), (4,6), (2,4) and (5,0). Go from (6,1) to (0,3)",
+    "ground_truth": "up up up up up up right right",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (0,5). Go from (2,3) to (4,5)",
+    "ground_truth": "right right down down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (3,5), (3,2), (5,1) and (2,2). Go from (2,3) to (5,2)",
+    "ground_truth": "down down left down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (3,0). Go from (6,5) to (4,2)",
+    "ground_truth": "up up left left left",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (5,1), (0,1) and (1,4). Go from (3,6) to (0,5)",
+    "ground_truth": "up up up left",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (3,5), (2,2), (3,4), (2,6) and (3,3). Go from (1,0) to (5,3)",
+    "ground_truth": "right down down right down right down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (4,6) and (0,3). Go from (6,2) to (1,4)",
+    "ground_truth": "up up up up up right right",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (3,5), (0,6) and (1,5). Go from (2,6) to (2,0)",
+    "ground_truth": "left left left left left left",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (5,6), (5,3) and (0,6). Go from (6,3) to (6,0)",
+    "ground_truth": "left left left",
+    "raw_response": "left left left",
+    "extracted_actions": "left left left",
+    "success": true,
+    "error_type": "none"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (4,5) and (5,4). Go from (3,3) to (0,2)",
+    "ground_truth": "up up up left",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (4,5) and (2,2). Go from (3,6) to (2,6)",
+    "ground_truth": "up",
+    "raw_response": "up",
+    "extracted_actions": "up",
+    "success": true,
+    "error_type": "none"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (2,4), (3,4), (5,6), (1,1) and (0,3). Go from (2,6) to (6,4)",
+    "ground_truth": "left down down left down down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (5,1), (0,2) and (3,2). Go from (3,3) to (2,0)",
+    "ground_truth": "up left left left",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (3,4), (4,3), (5,3), (1,3) and (3,3). Go from (1,2) to (6,1)",
+    "ground_truth": "left down down down down down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (2,1), (3,5) and (4,3). Go from (5,4) to (5,5)",
+    "ground_truth": "right",
+    "raw_response": "right",
+    "extracted_actions": "right",
+    "success": true,
+    "error_type": "none"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (4,4). Go from (5,1) to (3,4)",
+    "ground_truth": "up up right right right",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (2,4). Go from (6,3) to (2,1)",
+    "ground_truth": "up up up up left left",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (1,3), (6,4) and (3,5). Go from (6,5) to (3,1)",
+    "ground_truth": "up up left up left left left",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (1,1), (0,2), (2,4), (5,6) and (1,4). Go from (6,1) to (1,3)",
+    "ground_truth": "up up up up right up right",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (0,6) and (1,0). Go from (0,3) to (0,5)",
+    "ground_truth": "right right",
+    "raw_response": "right right",
+    "extracted_actions": "right right",
+    "success": true,
+    "error_type": "none"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (6,5), (5,5), (5,1), (1,2) and (0,1). Go from (2,2) to (1,0)",
+    "ground_truth": "left up left",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (3,0). Go from (5,4) to (5,0)",
+    "ground_truth": "left left left left",
+    "raw_response": "left left left left",
+    "extracted_actions": "left left left left",
+    "success": true,
+    "error_type": "none"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (4,0) and (0,6). Go from (0,4) to (0,1)",
+    "ground_truth": "left left left",
+    "raw_response": "left left left",
+    "extracted_actions": "left left left",
+    "success": true,
+    "error_type": "none"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (1,1), (0,2), (2,4), (5,6) and (1,4). Go from (6,2) to (4,4)",
+    "ground_truth": "up up right right",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (0,4) and (5,0). Go from (3,6) to (6,6)",
+    "ground_truth": "down down down",
+    "raw_response": "down down down",
+    "extracted_actions": "down down down",
+    "success": true,
+    "error_type": "none"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (2,5). Go from (3,0) to (4,5)",
+    "ground_truth": "right right right right right down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (4,1), (0,4), (6,3) and (1,4). Go from (3,4) to (2,4)",
+    "ground_truth": "up",
+    "raw_response": "up",
+    "extracted_actions": "up",
+    "success": true,
+    "error_type": "none"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (2,0), (4,2) and (3,6). Go from (3,3) to (6,0)",
+    "ground_truth": "left left left down down down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (4,6) and (0,3). Go from (0,6) to (2,5)",
+    "ground_truth": "left down down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (2,4), (3,4), (5,6), (1,1) and (0,3). Go from (5,4) to (0,0)",
+    "ground_truth": "up left up up up left up left left",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (0,6). Go from (3,3) to (3,4)",
+    "ground_truth": "right",
+    "raw_response": "right",
+    "extracted_actions": "right",
+    "success": true,
+    "error_type": "none"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (0,6), (6,6), (1,2) and (5,6). Go from (0,1) to (1,5)",
+    "ground_truth": "right right right right down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (3,6), (2,3), (2,2), (0,1) and (4,5). Go from (1,6) to (2,1)",
+    "ground_truth": "left left left left left down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (5,2), (0,3), (6,2), (0,0) and (0,1). Go from (6,1) to (4,0)",
+    "ground_truth": "up up left",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (3,0), (2,5) and (6,4). Go from (0,4) to (1,0)",
+    "ground_truth": "left left left left down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (6,5), (2,1), (4,4), (5,5) and (0,6). Go from (5,4) to (4,6)",
+    "ground_truth": "left up up right right right down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (6,1), (3,6) and (2,4). Go from (0,0) to (3,0)",
+    "ground_truth": "down down down",
+    "raw_response": "down down down",
+    "extracted_actions": "down down down",
+    "success": true,
+    "error_type": "none"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (4,5), (0,4) and (2,2). Go from (5,1) to (0,0)",
+    "ground_truth": "up up up up up left",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (0,3), (2,3) and (5,6). Go from (4,0) to (5,0)",
+    "ground_truth": "down",
+    "raw_response": "down",
+    "extracted_actions": "down",
+    "success": true,
+    "error_type": "none"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (4,4). Go from (1,0) to (5,2)",
+    "ground_truth": "right right down down down down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (3,6), (1,3) and (0,5). Go from (6,3) to (6,4)",
+    "ground_truth": "right",
+    "raw_response": "right",
+    "extracted_actions": "right",
+    "success": true,
+    "error_type": "none"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (2,0), (4,2) and (3,6). Go from (1,4) to (1,3)",
+    "ground_truth": "left",
+    "raw_response": "left",
+    "extracted_actions": "left",
+    "success": true,
+    "error_type": "none"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (6,2). Go from (5,5) to (3,2)",
+    "ground_truth": "up up left left left",
+    "raw_response": "up up",
+    "extracted_actions": "up up",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (2,2), (0,3), (6,1) and (6,0). Go from (1,2) to (0,2)",
+    "ground_truth": "up",
+    "raw_response": "up",
+    "extracted_actions": "up",
+    "success": true,
+    "error_type": "none"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (1,4), (4,0) and (5,2). Go from (2,4) to (3,4)",
+    "ground_truth": "down",
+    "raw_response": "down",
+    "extracted_actions": "down",
+    "success": true,
+    "error_type": "none"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (0,6), (3,6), (0,2), (4,2) and (1,2). Go from (1,3) to (2,0)",
+    "ground_truth": "down left left left",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (0,6). Go from (6,3) to (4,5)",
+    "ground_truth": "up up right right",
+    "raw_response": "up up right right",
+    "extracted_actions": "up up right right",
+    "success": true,
+    "error_type": "none"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (5,2), (4,5), (3,3) and (3,0). Go from (4,1) to (5,5)",
+    "ground_truth": "right right right down right",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (3,5), (3,2), (5,1) and (2,2). Go from (1,3) to (5,3)",
+    "ground_truth": "down down down down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (6,5), (2,1), (4,4), (5,5) and (0,6). Go from (3,6) to (6,3)",
+    "ground_truth": "left left left down down down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (2,4), (6,6) and (6,0). Go from (3,0) to (6,1)",
+    "ground_truth": "right down down down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (4,5), (0,4) and (2,2). Go from (5,5) to (0,3)",
+    "ground_truth": "left up up up up left up",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (2,4), (6,2) and (6,6). Go from (5,2) to (2,6)",
+    "ground_truth": "up up right right right up right",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (2,1), (5,4), (5,1), (6,2) and (0,1). Go from (0,2) to (6,1)",
+    "ground_truth": "down down down left down left down down right",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (4,5), (0,4) and (2,2). Go from (5,1) to (6,6)",
+    "ground_truth": "right right right right right down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (0,2), (2,0), (6,0), (0,0) and (4,5). Go from (6,1) to (3,6)",
+    "ground_truth": "up up up right right right right right",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (0,6) and (5,3). Go from (4,4) to (6,3)",
+    "ground_truth": "down down left",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (4,5) and (0,1). Go from (1,3) to (5,6)",
+    "ground_truth": "right right right down down down down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (0,6) and (1,0). Go from (2,2) to (5,6)",
+    "ground_truth": "right right right right down down down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (1,4). Go from (2,1) to (4,6)",
+    "ground_truth": "right right right right right down down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (1,1), (0,2), (2,4), (5,6) and (1,4). Go from (0,6) to (0,3)",
+    "ground_truth": "left left left",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (1,6) and (4,2). Go from (0,1) to (0,3)",
+    "ground_truth": "right right",
+    "raw_response": "right right",
+    "extracted_actions": "right right",
+    "success": true,
+    "error_type": "none"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (0,2). Go from (5,1) to (1,5)",
+    "ground_truth": "up up up up right right right right",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (0,2) and (3,2). Go from (5,5) to (0,4)",
+    "ground_truth": "up up up up up left",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (5,1), (4,3), (3,2), (4,1) and (5,5). Go from (1,2) to (1,5)",
+    "ground_truth": "right right right",
+    "raw_response": "right right right",
+    "extracted_actions": "right right right",
+    "success": true,
+    "error_type": "none"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (2,6), (4,2), (4,0) and (5,1). Go from (5,4) to (6,2)",
+    "ground_truth": "left left down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (6,5), (2,1), (4,4), (5,5) and (0,6). Go from (0,2) to (1,5)",
+    "ground_truth": "right right right down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (4,4). Go from (6,6) to (5,2)",
+    "ground_truth": "up left left left left",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (5,2), (0,3), (6,2), (0,0) and (0,1). Go from (1,0) to (6,1)",
+    "ground_truth": "right down down down down down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (4,2) and (1,5). Go from (4,1) to (1,2)",
+    "ground_truth": "up up up right",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (5,4), (2,3) and (1,2). Go from (2,5) to (5,5)",
+    "ground_truth": "down down down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (0,3) and (3,3). Go from (6,3) to (6,1)",
+    "ground_truth": "left left",
+    "raw_response": "left left",
+    "extracted_actions": "left left",
+    "success": true,
+    "error_type": "none"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (6,0), (0,6) and (2,3). Go from (6,5) to (4,0)",
+    "ground_truth": "up up left left left left left",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (0,0), (2,4), (2,5), (5,1) and (4,1). Go from (6,0) to (5,0)",
+    "ground_truth": "up",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (2,1), (5,4), (5,1), (6,2) and (0,1). Go from (1,2) to (0,2)",
+    "ground_truth": "up",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (3,3), (2,3) and (0,6). Go from (2,4) to (2,6)",
+    "ground_truth": "right right",
+    "raw_response": "right right",
+    "extracted_actions": "right right",
+    "success": true,
+    "error_type": "none"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (0,3), (4,4), (2,3) and (1,0). Go from (2,0) to (0,2)",
+    "ground_truth": "right up up right",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (2,6), (4,2), (4,0) and (5,1). Go from (1,4) to (3,0)",
+    "ground_truth": "left left left left down down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (4,5) and (5,4). Go from (1,4) to (2,4)",
+    "ground_truth": "down",
+    "raw_response": "down",
+    "extracted_actions": "down",
+    "success": true,
+    "error_type": "none"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (4,2) and (1,5). Go from (3,5) to (3,2)",
+    "ground_truth": "left left left",
+    "raw_response": "left left left",
+    "extracted_actions": "left left left",
+    "success": true,
+    "error_type": "none"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (2,4), (6,6) and (6,0). Go from (5,3) to (5,6)",
+    "ground_truth": "right right right",
+    "raw_response": "right right right",
+    "extracted_actions": "right right right",
+    "success": true,
+    "error_type": "none"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (6,3), (3,5), (3,2) and (1,5). Go from (4,3) to (4,2)",
+    "ground_truth": "left",
+    "raw_response": "left",
+    "extracted_actions": "left",
+    "success": true,
+    "error_type": "none"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (1,1). Go from (4,6) to (5,5)",
+    "ground_truth": "left down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (6,5), (2,1), (4,4), (5,5) and (0,6). Go from (6,0) to (6,1)",
+    "ground_truth": "right",
+    "raw_response": "right",
+    "extracted_actions": "right",
+    "success": true,
+    "error_type": "none"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (0,6), (3,6), (0,2), (4,2) and (1,2). Go from (6,6) to (5,0)",
+    "ground_truth": "up left left left left left left",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (5,1) and (3,2). Go from (6,5) to (5,4)",
+    "ground_truth": "up left",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (2,4), (6,2) and (6,6). Go from (0,1) to (3,6)",
+    "ground_truth": "right right right right right down down down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (4,0), (4,6), (2,4) and (5,0). Go from (2,2) to (2,3)",
+    "ground_truth": "right",
+    "raw_response": "right",
+    "extracted_actions": "right",
+    "success": true,
+    "error_type": "none"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (0,6), (5,0), (0,4), (2,2) and (1,1). Go from (3,0) to (1,2)",
+    "ground_truth": "up up up right right down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (5,1) and (3,2). Go from (6,4) to (3,4)",
+    "ground_truth": "up up up",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (3,4), (2,4) and (0,0). Go from (3,6) to (3,3)",
+    "ground_truth": "left down left left up",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (2,5), (0,4), (2,1) and (1,2). Go from (3,6) to (4,1)",
+    "ground_truth": "left left left left left down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (4,3) and (2,3). Go from (2,6) to (4,5)",
+    "ground_truth": "left down down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (3,4), (2,4) and (0,0). Go from (4,5) to (1,3)",
+    "ground_truth": "up up up left left",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (2,6), (4,2), (4,0) and (5,1). Go from (0,6) to (1,2)",
+    "ground_truth": "left left left left down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (2,4), (3,4), (5,6), (1,1) and (0,3). Go from (0,2) to (2,1)",
+    "ground_truth": "down down left",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (2,1), (5,4), (5,1), (6,2) and (0,1). Go from (2,2) to (2,6)",
+    "ground_truth": "right right right right",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (1,2). Go from (5,3) to (5,2)",
+    "ground_truth": "left",
+    "raw_response": "left",
+    "extracted_actions": "left",
+    "success": true,
+    "error_type": "none"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (4,2), (6,6), (4,4) and (6,5). Go from (6,4) to (3,6)",
+    "ground_truth": "up right up up right",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (2,3), (4,2), (4,3) and (6,5). Go from (0,1) to (2,5)",
+    "ground_truth": "right right right right down down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (6,1). Go from (1,4) to (3,6)",
+    "ground_truth": "right right down down",
+    "raw_response": "down down right right",
+    "extracted_actions": "down down right right",
+    "success": true,
+    "error_type": "none"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (0,5) and (5,0). Go from (3,2) to (1,4)",
+    "ground_truth": "up up right right",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (2,4). Go from (3,2) to (0,1)",
+    "ground_truth": "up up up left",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (4,5) and (2,2). Go from (1,4) to (5,5)",
+    "ground_truth": "down down down down right",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (5,1). Go from (3,1) to (3,2)",
+    "ground_truth": "right",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (4,1). Go from (1,5) to (0,2)",
+    "ground_truth": "up left left left",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (3,5), (0,6) and (1,5). Go from (5,1) to (2,1)",
+    "ground_truth": "up up up",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (3,6). Go from (2,1) to (3,5)",
+    "ground_truth": "right right right right down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (2,4) and (1,3). Go from (5,1) to (0,3)",
+    "ground_truth": "up up up up up right right",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (6,6), (5,6) and (0,1). Go from (6,3) to (1,3)",
+    "ground_truth": "up up up up up",
+    "raw_response": "up up up up up",
+    "extracted_actions": "up up up up up",
+    "success": true,
+    "error_type": "none"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (6,3), (2,4), (3,5) and (2,6). Go from (5,5) to (2,2)",
+    "ground_truth": "up left up left up left",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (6,6), (0,1) and (5,1). Go from (0,3) to (0,0)",
+    "ground_truth": "left down left left up",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (6,0). Go from (1,0) to (0,3)",
+    "ground_truth": "up right right right",
+    "raw_response": "up right right right",
+    "extracted_actions": "up right right right",
+    "success": true,
+    "error_type": "none"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (0,0), (0,3), (0,5) and (5,3). Go from (1,0) to (6,2)",
+    "ground_truth": "right right down down down down down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (0,0), (0,3), (0,5) and (5,3). Go from (3,3) to (1,4)",
+    "ground_truth": "up up right",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (6,6), (0,1) and (5,1). Go from (3,6) to (4,0)",
+    "ground_truth": "left left left left left left down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (5,2), (4,5), (3,3) and (3,0). Go from (4,1) to (1,1)",
+    "ground_truth": "up up up",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (2,2), (0,3), (6,1) and (6,0). Go from (4,3) to (5,3)",
+    "ground_truth": "down",
+    "raw_response": "down",
+    "extracted_actions": "down",
+    "success": true,
+    "error_type": "none"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (6,1), (2,1), (1,1), (2,5) and (5,4). Go from (0,1) to (1,2)",
+    "ground_truth": "right down",
+    "raw_response": "right down",
+    "extracted_actions": "right down",
+    "success": true,
+    "error_type": "none"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (5,1), (0,1) and (1,4). Go from (0,4) to (3,0)",
+    "ground_truth": "left left down left left down down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (4,5) and (2,2). Go from (0,3) to (3,0)",
+    "ground_truth": "left left left down down down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (0,0). Go from (4,3) to (0,6)",
+    "ground_truth": "up up up up right right right",
+    "raw_response": "up up up up right right right",
+    "extracted_actions": "up up up up right right right",
+    "success": true,
+    "error_type": "none"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (6,6), (5,6) and (0,1). Go from (6,5) to (0,3)",
+    "ground_truth": "up up up up up up left left",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (6,0), (0,6) and (2,3). Go from (6,2) to (5,0)",
+    "ground_truth": "up left left",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (0,1). Go from (2,0) to (3,6)",
+    "ground_truth": "right right right right right right down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (4,5), (0,4) and (2,2). Go from (5,5) to (3,5)",
+    "ground_truth": "left up up right",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (4,5) and (5,4). Go from (1,6) to (6,6)",
+    "ground_truth": "down down down down down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (4,0), (4,6), (2,4) and (5,0). Go from (3,1) to (3,6)",
+    "ground_truth": "right right right right right",
+    "raw_response": "right right right right right",
+    "extracted_actions": "right right right right right",
+    "success": true,
+    "error_type": "none"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (4,5) and (3,4). Go from (2,0) to (6,3)",
+    "ground_truth": "right right right down down down down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (6,5), (2,1), (4,4), (5,5) and (0,6). Go from (4,6) to (2,3)",
+    "ground_truth": "up up left left left",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (4,5) and (0,1). Go from (2,1) to (0,4)",
+    "ground_truth": "up right up right right",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (2,4), (6,6) and (6,0). Go from (0,1) to (4,1)",
+    "ground_truth": "down down down down",
+    "raw_response": "down down down down",
+    "extracted_actions": "down down down down",
+    "success": true,
+    "error_type": "none"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (3,5), (2,2), (3,4), (2,6) and (3,3). Go from (5,2) to (6,5)",
+    "ground_truth": "right right right down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (4,5), (1,6), (1,1) and (2,0). Go from (1,0) to (5,1)",
+    "ground_truth": "up right right down down left down down down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (3,6). Go from (3,2) to (5,3)",
+    "ground_truth": "right down down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (4,1), (0,4), (6,3) and (1,4). Go from (1,1) to (4,4)",
+    "ground_truth": "right right down right down down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 7 by 7 world. There are obstacles that you have to avoid at: (1,0). Go from (3,1) to (2,3)",
+    "ground_truth": "up right right",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  }
+]

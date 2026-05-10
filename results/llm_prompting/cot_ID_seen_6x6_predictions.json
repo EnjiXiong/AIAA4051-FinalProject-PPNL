@@ -1,0 +1,1602 @@
+[
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (1,4), (3,4) and (2,1). Go from (2,0) to (1,0)",
+    "ground_truth": "up",
+    "raw_response": "I am at (2,0). Goal is (1,0). I need to go up 1 step. There are no obstacles in that path.  \nStep 1: up -> (1,0). Reached goal!  \nActions: up",
+    "extracted_actions": "up",
+    "success": true,
+    "error_type": "none"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (0,2), (1,1), (1,2), (2,0) and (1,4). Go from (5,1) to (2,3)",
+    "ground_truth": "up up up right right",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (1,2). Go from (0,5) to (4,1)",
+    "ground_truth": "left left left left down down down down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (1,1), (0,1) and (5,4). Go from (0,2) to (3,3)",
+    "ground_truth": "right down down down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (2,2), (3,3), (5,5) and (0,4). Go from (5,2) to (5,4)",
+    "ground_truth": "right right",
+    "raw_response": "Reasoning: I am at (5,2). Goal is (5,4). I need to go right 2 steps. Check obstacles: (2,2), (3,3), (5,5), (0,4) \u2014 none block the path. Step 1: right -> (5,3). Step 2: right -> (5,4). Reached goal!\n\nActions: right right",
+    "extracted_actions": "right right",
+    "success": true,
+    "error_type": "none"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (5,4), (1,1), (1,4), (5,5) and (3,2). Go from (2,2) to (5,0)",
+    "ground_truth": "left left down down down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (2,2), (4,4), (1,5), (3,0) and (2,3). Go from (4,5) to (1,3)",
+    "ground_truth": "up up left up left",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (3,1), (1,5), (3,3), (0,2) and (3,4). Go from (0,4) to (3,2)",
+    "ground_truth": "left down left down down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (0,2), (1,3) and (4,5). Go from (3,1) to (4,3)",
+    "ground_truth": "right right down",
+    "raw_response": "Reasoning: Starting at (3,1). Goal is (4,3). Need to move down 1 and right 2. Check obstacles: (0,2), (1,3), (4,5) \u2013 none block the path. Step 1: down to (4,1). Step 2: right to (4,2). Step 3: right to (4,3). Reached goal.\n\nActions: down right right",
+    "extracted_actions": "down right right",
+    "success": true,
+    "error_type": "none"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (3,3), (4,4), (5,0), (3,4) and (2,5). Go from (2,3) to (1,2)",
+    "ground_truth": "up left",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (0,4), (2,0) and (2,5). Go from (1,2) to (3,3)",
+    "ground_truth": "right down down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (0,2), (3,3) and (4,0). Go from (3,0) to (4,2)",
+    "ground_truth": "right right down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (3,4) and (3,1). Go from (0,1) to (4,5)",
+    "ground_truth": "right right right right down down down down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (1,2), (5,0) and (4,0). Go from (1,4) to (5,4)",
+    "ground_truth": "down down down down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (1,0), (0,0), (0,1), (4,5) and (2,5). Go from (3,4) to (1,2)",
+    "ground_truth": "up up left left",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (4,2), (2,2) and (1,1). Go from (5,3) to (4,0)",
+    "ground_truth": "left left up left",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (1,4), (4,5), (0,5) and (0,0). Go from (1,1) to (4,2)",
+    "ground_truth": "right down down down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (3,5). Go from (5,1) to (4,0)",
+    "ground_truth": "up left",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (3,1). Go from (4,3) to (4,1)",
+    "ground_truth": "left left",
+    "raw_response": "Starting at (4,3",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (4,3), (1,1), (4,5), (1,0) and (4,0). Go from (1,3) to (1,5)",
+    "ground_truth": "right right",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (2,0), (0,4), (4,3), (4,1) and (0,2). Go from (3,1) to (0,1)",
+    "ground_truth": "up up up",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (5,0), (3,5), (4,2), (2,5) and (3,0). Go from (4,5) to (5,5)",
+    "ground_truth": "down",
+    "raw_response": "I am at (4,5). Goal is (5,5). I need to move down 1 step. The target (5,5) is not an obstacle and is within bounds. No obstacles in the direct path. So I move down.\n\nStep 1: down -> (5,5). Reached goal!\n\nActions: down",
+    "extracted_actions": "down",
+    "success": true,
+    "error_type": "none"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (4,1), (1,5), (5,3) and (5,1). Go from (2,0) to (2,4)",
+    "ground_truth": "right right right right",
+    "raw_response": "I start at (2,0) and need to reach (2,4). Since both are on the same row and there are no obstacles in between (the obstacles are at (4,1), (1,5), (5,3), and (5",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (2,3), (4,3) and (2,4). Go from (3,4) to (0,4)",
+    "ground_truth": "right up up up left",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (0,1). Go from (3,0) to (1,4)",
+    "ground_truth": "up up right right right right",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (1,5), (2,1) and (0,5). Go from (2,2) to (4,0)",
+    "ground_truth": "down left left down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (0,0), (4,3), (2,2), (5,2) and (4,1). Go from (0,5) to (1,5)",
+    "ground_truth": "down",
+    "raw_response": "Reasoning: I am at (0,5). Goal is (1,5), which is directly below. There are no obstacles at (1,5) or in the path. So I can move down one step.\n\nStep 1: down -> (1,5). Reached goal!\n\nActions: down",
+    "extracted_actions": "down",
+    "success": true,
+    "error_type": "none"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (2,4), (5,2) and (2,0). Go from (0,0) to (3,3)",
+    "ground_truth": "right right right down down down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (4,3), (2,5) and (3,2). Go from (4,1) to (4,5)",
+    "ground_truth": "right down right right up right",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (2,4), (1,1) and (5,3). Go from (5,1) to (3,5)",
+    "ground_truth": "up up right right right right",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (4,5), (0,2), (1,4) and (2,4). Go from (4,3) to (1,1)",
+    "ground_truth": "up up up left left",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (2,0), (3,1), (4,3), (0,0) and (1,1). Go from (0,5) to (0,2)",
+    "ground_truth": "left left left",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (0,0), (2,5), (0,1) and (3,4). Go from (0,5) to (3,3)",
+    "ground_truth": "left left down down down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (3,4), (2,3) and (0,1). Go from (4,1) to (5,1)",
+    "ground_truth": "down",
+    "raw_response": "I am at (4,1). Goal is (5,1). I need to go down 1. There are no obstacles in the way. Step 1: down -> (5,1). Reached goal!\n\nActions: down",
+    "extracted_actions": "down",
+    "success": true,
+    "error_type": "none"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (4,2), (0,4), (1,1) and (4,0). Go from (2,0) to (2,3)",
+    "ground_truth": "right right right",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (0,1) and (5,1). Go from (2,5) to (0,0)",
+    "ground_truth": "up left left left left left up",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (5,1) and (2,0). Go from (2,1) to (4,4)",
+    "ground_truth": "right right right down down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (3,4). Go from (4,0) to (3,1)",
+    "ground_truth": "up right",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (2,3) and (5,4). Go from (1,2) to (3,3)",
+    "ground_truth": "down down right",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (2,3) and (2,1). Go from (3,0) to (1,4)",
+    "ground_truth": "up up right right right right",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (4,2), (5,2), (2,1), (1,4) and (1,1). Go from (2,0) to (3,1)",
+    "ground_truth": "down right",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (3,5), (2,0) and (5,5). Go from (5,3) to (4,3)",
+    "ground_truth": "up",
+    "raw_response": "Reasoning: I am at (5,3). Goal is (4,3). I need to go up 1. No obstacles in the way. Step 1: up -> (4,3). Reached goal!\n\nActions: up",
+    "extracted_actions": "up",
+    "success": true,
+    "error_type": "none"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (1,4), (4,5), (0,5) and (0,0). Go from (5,2) to (0,1)",
+    "ground_truth": "up up up up up left",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (2,3), (2,0), (4,5) and (0,3). Go from (4,2) to (0,2)",
+    "ground_truth": "up up up up",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (2,2), (1,2), (3,2), (4,2) and (4,3). Go from (2,5) to (5,2)",
+    "ground_truth": "left down down down left left",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (0,0), (5,2), (2,2), (4,5) and (0,2). Go from (1,2) to (5,5)",
+    "ground_truth": "right right down down down down right",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (4,3) and (2,4). Go from (0,2) to (1,4)",
+    "ground_truth": "right right down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (4,2) and (5,4). Go from (1,0) to (2,5)",
+    "ground_truth": "right right right right right down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (5,0), (3,0), (3,4) and (0,5). Go from (3,1) to (4,1)",
+    "ground_truth": "down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (4,3), (1,1), (4,5), (1,0) and (4,0). Go from (5,3) to (4,1)",
+    "ground_truth": "left up left",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (1,4), (5,4), (1,3) and (3,2). Go from (1,1) to (1,0)",
+    "ground_truth": "left",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (2,4), (4,0), (0,1), (1,0) and (1,5). Go from (4,2) to (1,1)",
+    "ground_truth": "up up up left",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (1,3), (2,1), (5,3) and (1,4). Go from (5,0) to (3,0)",
+    "ground_truth": "up up",
+    "raw_response": "I am at (5,0). The goal is (3,0). I need to move up twice to reach (3,0). There are no obstacles in column",
+    "extracted_actions": "up",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (3,5) and (2,5). Go from (4,1) to (4,3)",
+    "ground_truth": "right right",
+    "raw_response": "Reasoning: I start at (4,1). The goal is (4,3), so I need to move right 2 steps. Obstacles at (3,5) and (2,5) are far away and do not block the path. Step 1: right -> (4,2). Step 2: right -> (4,3). Reached goal!\n\nActions: right right",
+    "extracted_actions": "right right",
+    "success": true,
+    "error_type": "none"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (3,2), (2,5), (5,5) and (1,4). Go from (5,2) to (0,4)",
+    "ground_truth": "up right up up up up right",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (1,3), (5,4) and (5,2). Go from (0,3) to (2,1)",
+    "ground_truth": "left left down down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (4,2), (2,5), (2,0), (0,3) and (4,0). Go from (0,5) to (3,1)",
+    "ground_truth": "left down left left left down down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (2,3) and (2,1). Go from (4,1) to (1,3)",
+    "ground_truth": "up right up up right",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (4,5), (5,0), (0,3), (2,4) and (1,3). Go from (5,3) to (3,0)",
+    "ground_truth": "up up left left left",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (3,1), (2,3) and (0,2). Go from (5,4) to (2,0)",
+    "ground_truth": "up up left left up left left",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (1,3), (1,2), (1,1) and (2,0). Go from (1,5) to (5,5)",
+    "ground_truth": "down down down down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (1,0), (4,3) and (2,3). Go from (2,4) to (0,0)",
+    "ground_truth": "up up left left left left",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (1,4), (3,0), (0,2), (2,4) and (5,4). Go from (5,5) to (1,2)",
+    "ground_truth": "up up left left up up left",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (0,4) and (2,4). Go from (1,1) to (5,3)",
+    "ground_truth": "right right down down down down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (4,2) and (3,2). Go from (2,3) to (1,0)",
+    "ground_truth": "up left left left",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (4,0), (4,5), (1,1) and (4,3). Go from (2,3) to (2,2)",
+    "ground_truth": "left",
+    "raw_response": "I am at (2,3). Goal is (2,2). I need to move left one step. The target cell (2,2) is not an obstacle. Step 1: left -> (2,2). Reached goal!\n\nActions: left",
+    "extracted_actions": "left",
+    "success": true,
+    "error_type": "none"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (0,4), (0,3), (2,5), (3,3) and (4,3). Go from (5,4) to (0,0)",
+    "ground_truth": "up up up up left left up left left",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (1,5), (5,0) and (3,4). Go from (4,3) to (5,1)",
+    "ground_truth": "left left down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (2,5), (3,2), (1,0) and (0,4). Go from (2,0) to (5,0)",
+    "ground_truth": "down down down",
+    "raw_response": "I am at (",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (4,4) and (5,5). Go from (4,5) to (1,1)",
+    "ground_truth": "up up up left left left left",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (1,1), (3,4) and (5,1). Go from (0,2) to (2,0)",
+    "ground_truth": "left left down down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (2,5), (0,2) and (3,4). Go from (4,1) to (3,0)",
+    "ground_truth": "up left",
+    "raw_response": "I am at (4,1). Goal is (3,0). I need to go left 1 and up 1. There are no obstacles in the direct path. Step 1: left -> (4,0). Step 2: up -> (3,0). Re",
+    "extracted_actions": "left up left up",
+    "success": false,
+    "error_type": "out_of_bounds"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (5,3) and (0,1). Go from (4,5) to (3,3)",
+    "ground_truth": "up left left",
+    "raw_response": "I am at (4,5). Goal is (3,3). I need to go up 1 and left 2. Step",
+    "extracted_actions": "up left",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (5,3) and (5,4). Go from (1,0) to (4,4)",
+    "ground_truth": "right right right right down down down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (1,3), (1,0), (0,3) and (3,1). Go from (5,2) to (1,1)",
+    "ground_truth": "up up up up left",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (4,5), (0,2) and (3,5). Go from (4,0) to (2,1)",
+    "ground_truth": "up up right",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (4,4), (1,1), (5,1), (5,5) and (0,2). Go from (3,4) to (3,1)",
+    "ground_truth": "left left left",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (3,5), (0,0) and (1,0). Go from (3,1) to (0,1)",
+    "ground_truth": "up up up",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (4,2), (5,0), (2,0), (2,1) and (3,3). Go from (1,2) to (5,3)",
+    "ground_truth": "right down right down down left down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (3,5), (4,1), (3,0), (2,3) and (4,3). Go from (3,3) to (5,2)",
+    "ground_truth": "left down down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (1,4), (4,0) and (5,2). Go from (4,4) to (2,3)",
+    "ground_truth": "up up left",
+    "raw_response": "I am at (4,4). Goal is (",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (1,2), (0,4), (2,3), (0,1) and (2,5). Go from (4,4) to (4,3)",
+    "ground_truth": "left",
+    "raw_response": "I am at (4,4). Goal is (4,3), which is directly left. There are no obstacles blocking that move. Step 1: left -> (4,3). Reached goal!\n\nActions: left",
+    "extracted_actions": "left",
+    "success": true,
+    "error_type": "none"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (0,0) and (5,4). Go from (3,5) to (4,2)",
+    "ground_truth": "left left left down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (0,5), (5,4), (5,2) and (5,5). Go from (3,2) to (4,1)",
+    "ground_truth": "left down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (4,3), (0,3), (2,0), (5,5) and (5,4). Go from (4,0) to (3,2)",
+    "ground_truth": "up right right",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (0,4) and (2,5). Go from (0,1) to (5,0)",
+    "ground_truth": "left down down down down down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (3,1) and (1,2). Go from (4,3) to (2,5)",
+    "ground_truth": "up up right right",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (2,5), (1,3), (5,4), (5,1) and (0,5). Go from (0,2) to (3,3)",
+    "ground_truth": "down down right down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (4,4), (3,3), (0,1) and (3,2). Go from (5,3) to (5,4)",
+    "ground_truth": "right",
+    "raw_response": "Reasoning: I am at (5,3). Goal is (5,4). The only move needed is one step to the right, which leads to (5,4). There are no obstacles blocking this move.  \nStep 1: right -> (5,4). Reached goal!  \n\nActions",
+    "extracted_actions": "right right",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (3,3), (4,3) and (2,3). Go from (3,5) to (4,2)",
+    "ground_truth": "left down down left left up",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (5,5) and (1,0). Go from (0,3) to (1,1)",
+    "ground_truth": "left left down",
+    "raw_response": "I am at (0,3). Goal is (1,1). I need to move down 1 and left 2. No obstacles along this path. \n\nStep 1: down -> (1,3)\nStep 2: left -> (1,2)\nStep 3: left -> (1,1). Reached goal!\n\nActions: down left left",
+    "extracted_actions": "down left left",
+    "success": true,
+    "error_type": "none"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (5,5), (2,4), (4,5) and (2,2). Go from (0,4) to (3,4)",
+    "ground_truth": "down left down down right",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (4,3), (2,2), (1,5), (5,4) and (1,4). Go from (0,2) to (4,5)",
+    "ground_truth": "right down down right right down down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (4,1), (1,3), (4,5) and (1,2). Go from (4,0) to (0,0)",
+    "ground_truth": "up up up up",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (2,2), (2,0), (2,4) and (1,4). Go from (3,5) to (3,0)",
+    "ground_truth": "left left left left left",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (1,4), (3,4), (3,1), (5,3) and (1,5). Go from (2,3) to (2,5)",
+    "ground_truth": "right right",
+    "raw_response": "I am at (2,3). Goal is (2,5). I need",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (0,2), (5,1) and (0,3). Go from (5,4) to (0,5)",
+    "ground_truth": "up up up up up right",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (3,1), (0,1), (3,0), (2,2) and (1,5). Go from (5,4) to (1,1)",
+    "ground_truth": "up up up up left left left",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (1,0), (3,4) and (0,5). Go from (5,3) to (3,3)",
+    "ground_truth": "up up",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (4,0) and (5,3). Go from (0,1) to (5,5)",
+    "ground_truth": "right right right right down down down down down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (4,5), (5,2) and (4,3). Go from (5,5) to (5,3)",
+    "ground_truth": "left left",
+    "raw_response": "Reasoning: I am at (5,5). Goal is (5",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (2,2), (5,2) and (4,2). Go from (4,1) to (2,4)",
+    "ground_truth": "up right right up right",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (5,5), (0,4), (4,5), (5,2) and (0,2). Go from (2,5) to (3,4)",
+    "ground_truth": "left down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (2,3), (2,5) and (4,4). Go from (1,0) to (3,5)",
+    "ground_truth": "right right right right down down right",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (3,3), (4,3) and (2,3). Go from (3,2) to (1,1)",
+    "ground_truth": "up up left",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (4,1), (1,3), (5,2), (3,5) and (3,1). Go from (2,2) to (1,1)",
+    "ground_truth": "up left",
+    "raw_response": "I am",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (0,1), (5,0) and (0,2). Go from (3,4) to (1,5)",
+    "ground_truth": "up up right",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (0,0), (3,0) and (0,4). Go from (5,1) to (3,2)",
+    "ground_truth": "up up right",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (4,3), (2,2), (1,5), (5,4) and (1,4). Go from (2,0) to (0,4)",
+    "ground_truth": "up up right right right right",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (3,3), (1,0), (1,3) and (0,2). Go from (5,0) to (2,5)",
+    "ground_truth": "up up up right right right right right",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (1,4), (5,4), (1,3) and (3,2). Go from (3,0) to (4,4)",
+    "ground_truth": "right down right right right",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (5,4), (2,5), (1,5), (4,0) and (2,3). Go from (0,0) to (0,3)",
+    "ground_truth": "right right right",
+    "raw_response": "I am at (0,0). Goal is (0,3). I need to move right 3 times. No obstacles on row 0.",
+    "extracted_actions": "right",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (4,0) and (0,2). Go from (3,4) to (5,4)",
+    "ground_truth": "down down",
+    "raw_response": "I am at (3,4). Goal is (5,4), which is 2 steps down. There are no obstacles along that path (obstacles are at (4,0) and (0,2), not on column 4). So I move down twice.\n\nStep 1: down -> (4,4)\nStep 2: down -> (5,4). Reached goal!\n\nActions: down down",
+    "extracted_actions": "down down",
+    "success": true,
+    "error_type": "none"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (1,4), (3,4) and (2,1). Go from (0,2) to (1,2)",
+    "ground_truth": "down",
+    "raw_response": "I am at (0,2). The goal is (1,2), which is directly below. There are no obstacles on that path. So I can move down once.\n\nStep 1: down -> (1,2). Reached goal!\n\nActions: down",
+    "extracted_actions": "down",
+    "success": true,
+    "error_type": "none"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (1,4), (4,3) and (1,2). Go from (0,2) to (0,0)",
+    "ground_truth": "left left",
+    "raw_response": "Reasoning: I am at (0,2). Goal is (0,0). I need to go left 2 steps. There are no obstacles on row 0, so I can move directly.  \nStep 1: left -> (0,1)  \nStep 2: left -> (0,0). Reached goal!  \n\nActions: left left",
+    "extracted_actions": "left left",
+    "success": true,
+    "error_type": "none"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (0,3), (3,1) and (4,4). Go from (2,1) to (4,1)",
+    "ground_truth": "left down down right",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (2,0), (3,1), (4,3), (0,0) and (1,1). Go from (5,2) to (5,0)",
+    "ground_truth": "left left",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (1,4), (1,3) and (5,2). Go from (5,5) to (0,3)",
+    "ground_truth": "up up up up up left left",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (0,3), (3,5), (0,0) and (2,2). Go from (0,1) to (3,3)",
+    "ground_truth": "right down right down down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (2,5) and (5,3). Go from (3,4) to (4,2)",
+    "ground_truth": "left left down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (1,0) and (2,3). Go from (3,1) to (0,0)",
+    "ground_truth": "up up up left",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (4,3) and (0,0). Go from (1,5) to (0,5)",
+    "ground_truth": "up",
+    "raw_response": "I am at (1,5). Goal is (0,5). I need to move up 1 step. (0,5) is not an obstacle. So I move up to (0,5). Reached goal.\n\nActions: up",
+    "extracted_actions": "up",
+    "success": true,
+    "error_type": "none"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (4,2), (5,3), (4,1), (0,2) and (2,2). Go from (1,3) to (2,5)",
+    "ground_truth": "right right down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (3,0), (0,2), (4,1), (5,0) and (4,3). Go from (0,5) to (4,2)",
+    "ground_truth": "left left down left down down down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (5,2) and (4,2). Go from (1,0) to (2,2)",
+    "ground_truth": "right right down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (2,2) and (2,5). Go from (5,3) to (2,3)",
+    "ground_truth": "up up up",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (3,0), (1,1), (5,2) and (2,0). Go from (4,3) to (0,5)",
+    "ground_truth": "up up up up right right",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (3,4), (5,4), (4,1) and (5,0). Go from (5,3) to (0,0)",
+    "ground_truth": "up up up up up left left left",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (5,5), (0,0), (0,1), (5,4) and (2,3). Go from (0,3) to (4,3)",
+    "ground_truth": "down left down down right down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (0,1), (4,1), (1,4), (3,3) and (4,5). Go from (2,0) to (3,1)",
+    "ground_truth": "right down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (4,2), (0,1), (1,5), (4,4) and (2,1). Go from (0,3) to (3,4)",
+    "ground_truth": "right down down down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (0,4) and (0,1). Go from (3,4) to (0,3)",
+    "ground_truth": "up up left up",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (4,1) and (2,3). Go from (2,4) to (5,0)",
+    "ground_truth": "down left left left left down down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (1,4), (1,5) and (3,2). Go from (5,2) to (0,2)",
+    "ground_truth": "up left up up up up right",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (3,1) and (5,1). Go from (2,3) to (0,4)",
+    "ground_truth": "up up right",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (1,3), (2,0) and (3,5). Go from (1,1) to (3,4)",
+    "ground_truth": "right down right right down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (5,4), (3,2), (1,1) and (0,4). Go from (2,2) to (5,2)",
+    "ground_truth": "left down down right down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (1,5), (5,5), (4,4), (3,3) and (5,0). Go from (4,5) to (0,3)",
+    "ground_truth": "up up left up up left",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (3,3), (5,2) and (1,5). Go from (4,0) to (3,5)",
+    "ground_truth": "right right right right up right",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (0,0), (0,1), (1,1) and (4,5). Go from (3,2) to (0,2)",
+    "ground_truth": "up up up",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (4,3), (2,1), (3,2) and (1,0). Go from (2,5) to (0,4)",
+    "ground_truth": "up up left",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (0,4) and (2,2). Go from (1,2) to (0,3)",
+    "ground_truth": "up right",
+    "raw_response": "I am at (1,2). Goal is (0,3). I need to go up 1 and right 1. The obstacle at (0,4) is not in the way, and (2,2) is behind me. So I can go up to (0,2)",
+    "extracted_actions": "up right up",
+    "success": false,
+    "error_type": "out_of_bounds"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (5,0) and (0,3). Go from (0,5) to (4,5)",
+    "ground_truth": "down down down down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (2,3), (5,1) and (2,5). Go from (2,4) to (1,2)",
+    "ground_truth": "up left left",
+    "raw_response": "Reasoning: I am at (2,4). Goal is (1,2). I need to go up 1 and left 2. However, going left first",
+    "extracted_actions": "up left left",
+    "success": true,
+    "error_type": "none"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (1,3), (1,2), (1,1) and (2,0). Go from (3,4) to (3,2)",
+    "ground_truth": "left left",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (1,5), (4,4), (1,4), (4,5) and (3,4). Go from (2,1) to (0,3)",
+    "ground_truth": "up up right right",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (4,2), (2,5), (2,0), (0,3) and (4,0). Go from (3,4) to (5,5)",
+    "ground_truth": "right down down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (5,4), (0,3), (2,4), (1,0) and (2,3). Go from (3,2) to (2,1)",
+    "ground_truth": "up left",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (3,4) and (5,3). Go from (2,3) to (1,5)",
+    "ground_truth": "up right right",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (1,3), (5,0) and (2,4). Go from (5,3) to (2,0)",
+    "ground_truth": "up up up left left left",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (3,3), (5,1), (4,4), (1,4) and (5,0). Go from (4,2) to (0,1)",
+    "ground_truth": "up up up up left",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (4,0) and (1,4). Go from (3,4) to (4,5)",
+    "ground_truth": "right down",
+    "raw_response": "I am at (3,4). Goal is (4,5). I need to go down 1 and right 1. There are no obstacles blocking this path. Step 1: down -> (4,4). Step 2: right -> (4,5). Reached goal!\n\nActions: down right",
+    "extracted_actions": "down right",
+    "success": true,
+    "error_type": "none"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (4,4), (1,3) and (3,2). Go from (0,2) to (3,4)",
+    "ground_truth": "right right down down down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (1,1), (0,3), (0,5) and (3,5). Go from (3,2) to (5,1)",
+    "ground_truth": "left down down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (5,1) and (5,3). Go from (2,4) to (0,5)",
+    "ground_truth": "up up right",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (0,5), (1,0) and (0,1). Go from (3,0) to (2,1)",
+    "ground_truth": "up right",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (4,2), (0,5), (5,0) and (5,5). Go from (1,0) to (1,5)",
+    "ground_truth": "right right right right right",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (2,2), (3,2), (3,0) and (1,3). Go from (4,5) to (3,5)",
+    "ground_truth": "up",
+    "raw_response": "I am at (4,5). The goal is (3,5), which is directly above. There are no obstacles blocking this move, and (3,5) is clear. So I move up one step.\n\nActions: up",
+    "extracted_actions": "up",
+    "success": true,
+    "error_type": "none"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (5,0), (0,2), (1,0), (4,5) and (3,4). Go from (2,1) to (4,2)",
+    "ground_truth": "right down down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (5,3), (0,4) and (3,0). Go from (5,0) to (2,1)",
+    "ground_truth": "up right up up",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (5,0), (5,3), (1,1) and (1,5). Go from (4,5) to (0,4)",
+    "ground_truth": "up up left up up",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (3,2), (0,1), (0,4), (5,1) and (2,0). Go from (2,1) to (0,5)",
+    "ground_truth": "up right right right right up",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (2,2) and (2,0). Go from (1,2) to (1,4)",
+    "ground_truth": "right right",
+    "raw_response": "I am at (1,2). Goal is (1,4). I need to go right 2 steps. There are no obstacles in the way since obstacles are at (2,2) and (2,0), which are on different rows. Step 1: right -> (1,3). Step 2: right -> (1,4). Reached goal!\n\nActions: right right",
+    "extracted_actions": "right right",
+    "success": true,
+    "error_type": "none"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (5,3), (0,3), (1,1), (4,1) and (2,4). Go from (3,3) to (4,2)",
+    "ground_truth": "left down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (5,0) and (1,4). Go from (5,2) to (4,0)",
+    "ground_truth": "up left left",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (0,5), (1,4), (3,5), (1,2) and (0,1). Go from (3,3) to (1,5)",
+    "ground_truth": "up right right up",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (0,1), (3,2), (1,0), (2,1) and (5,0). Go from (5,1) to (5,5)",
+    "ground_truth": "right right right right",
+    "raw_response": "I am at (5,1). The goal is (5,5). I need to move right 4 steps",
+    "extracted_actions": "right",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (1,2), (2,5) and (4,2). Go from (2,1) to (0,1)",
+    "ground_truth": "up up",
+    "raw_response": "Reasoning: I am at (2,1). Goal is (0,1). I need to move up 2 steps. The direct path is clear, as obstacles are at (1,2), (2,5), and (4,2), none of which block column 1. Step 1: up -> (1,1). Step 2: up -> (0,1). Reached goal.\n\nActions: up",
+    "extracted_actions": "up",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (4,2), (5,2), (2,1), (1,4) and (1,1). Go from (5,5) to (0,2)",
+    "ground_truth": "up up up up up left left left",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (2,3) and (5,3). Go from (4,2) to (0,5)",
+    "ground_truth": "up up up up right right right",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (4,5), (0,3) and (3,3). Go from (1,2) to (4,0)",
+    "ground_truth": "left left down down down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (4,4), (3,0) and (2,3). Go from (1,4) to (3,3)",
+    "ground_truth": "down down left",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (4,1), (0,1), (3,4), (4,0) and (0,3). Go from (3,2) to (3,1)",
+    "ground_truth": "left",
+    "raw_response": "I am at (3,2). Goal is (3,1). I need to move up by 1 step. There are no obstacles in the way.  \nStep 1: up -> (3,1). Reached goal.  \n\nActions: up",
+    "extracted_actions": "up",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (5,2), (0,1), (0,0) and (2,2). Go from (4,3) to (1,3)",
+    "ground_truth": "up up up",
+    "raw_response": "Reasoning: I am at (4,3). Goal is (1,3). I need to move up 3 steps. The path (4,3) -> (3,3) -> (2,3) -> (1",
+    "extracted_actions": "up",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (2,3), (0,1), (1,5) and (2,1). Go from (5,0) to (4,1)",
+    "ground_truth": "up right",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (5,2), (0,5) and (3,1). Go from (4,5) to (2,4)",
+    "ground_truth": "up up left",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (1,2), (0,0), (0,3) and (5,0). Go from (4,4) to (5,2)",
+    "ground_truth": "left left down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (5,5), (0,3) and (3,3). Go from (0,1) to (5,1)",
+    "ground_truth": "down down down down down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (0,2), (5,5), (5,4), (4,1) and (1,0). Go from (5,0) to (0,1)",
+    "ground_truth": "up up up right up up",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (5,3) and (2,3). Go from (1,3) to (4,0)",
+    "ground_truth": "left left left down down down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (3,3), (2,3) and (1,1). Go from (3,4) to (4,3)",
+    "ground_truth": "down left",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (5,0) and (1,4). Go from (1,1) to (5,3)",
+    "ground_truth": "right right down down down down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (4,1) and (2,3). Go from (0,0) to (0,4)",
+    "ground_truth": "right right right right",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (2,0). Go from (2,3) to (4,0)",
+    "ground_truth": "left left down left down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (0,2), (1,1) and (0,0). Go from (3,0) to (5,1)",
+    "ground_truth": "right down down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (0,2), (5,0), (3,1), (1,0) and (4,1). Go from (3,0) to (3,4)",
+    "ground_truth": "up right right right right down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (2,0), (4,0) and (1,4). Go from (0,4) to (5,4)",
+    "ground_truth": "left down down right down down down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (5,3) and (0,1). Go from (4,1) to (4,3)",
+    "ground_truth": "right right",
+    "raw_response": "I am at (4,1). Goal is (4,3). I need to move right twice. The obstacles are at (5,3) and (0,1), which do not affect my path. Step 1: right -> (4,2). Step 2: right -> (4,3). Reached goal.\n\nActions: right right",
+    "extracted_actions": "right right",
+    "success": true,
+    "error_type": "none"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (1,0), (4,3) and (2,3). Go from (0,1) to (5,0)",
+    "ground_truth": "down down left down down down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (2,1) and (4,4). Go from (3,3) to (5,0)",
+    "ground_truth": "left left left down down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (1,0) and (2,3). Go from (3,5) to (3,0)",
+    "ground_truth": "left left left left left",
+    "raw_response": "I am at (3,5). Goal",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (1,1), (0,0) and (1,0). Go from (0,1) to (0,2)",
+    "ground_truth": "right",
+    "raw_response": "Reasoning: I am at (0,1). Goal is (0,2). I need to go right 1. No obstacles in the way. Step 1: right -> (0,2). Reached goal.\n\nActions: right",
+    "extracted_actions": "right",
+    "success": true,
+    "error_type": "none"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (5,4), (2,1), (3,1) and (1,3). Go from (1,0) to (1,2)",
+    "ground_truth": "right right",
+    "raw_response": "I am at (1,0). The goal is (1,2). The direct path is to move right twice, which goes through (1,1) and then (1,2). None of these positions are obstacles (obstacles are at",
+    "extracted_actions": "right",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (3,0), (4,5), (2,4) and (5,4). Go from (1,2) to (3,1)",
+    "ground_truth": "left down down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (0,0), (2,0), (4,2), (1,4) and (2,4). Go from (2,5) to (5,4)",
+    "ground_truth": "down left down down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (4,4), (3,3), (0,1) and (3,2). Go from (2,4) to (2,0)",
+    "ground_truth": "left left left left",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (1,0). Go from (0,2) to (4,0)",
+    "ground_truth": "left down down left down down",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (2,5) and (5,2). Go from (1,3) to (3,5)",
+    "ground_truth": "right down down right",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (0,2), (1,1) and (0,0). Go from (3,3) to (2,3)",
+    "ground_truth": "up",
+    "raw_response": "I am at (3,3). Goal is (2,3), which is directly north. There are no obstacles blocking that move. I can move up one step.\n\nStep 1: up -> (2,3). Reached goal!\n\nActions: up",
+    "extracted_actions": "up",
+    "success": true,
+    "error_type": "none"
+  },
+  {
+    "nl_description": "You are in a 6 by 6 world. There are obstacles that you have to avoid at: (5,3) and (1,3). Go from (2,2) to (0,0)",
+    "ground_truth": "up up left left",
+    "raw_response": "",
+    "extracted_actions": "",
+    "success": false,
+    "error_type": "wrong_end"
+  }
+]

@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Trained checkpoints — hosted on Hugging Face mirror, too large for GitHub.
+# See README "Pretrained models" for download instructions.
+models/
+
+# Local pretrained weight dumps (use `--model facebook/bart-base` instead).
+pretrained/
+
+# Empty placeholder
+prompts/
+
+# Windows-on-WSL alternate-data-stream artifacts
+*:Zone.Identifier
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Environment
+.env
+*.local

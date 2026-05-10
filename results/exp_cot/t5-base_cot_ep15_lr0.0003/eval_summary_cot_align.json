@@ -1,0 +1,153 @@
+{
+  "ID_seen_6x6": {
+    "total": 2001,
+    "success_rate": 0.9870064967516242,
+    "feasibility": 0.9870064967516242,
+    "optimality": 0.9805097451274363,
+    "exact_match": 0.9765117441279361,
+    "avg_distance_to_goal": 0.0,
+    "error_distribution": {
+      "none": 1975,
+      "obstacle": 25,
+      "out_of_bounds": 1
+    }
+  },
+  "ID_unseen_6x6": {
+    "total": 5027,
+    "success_rate": 0.9872687487567138,
+    "feasibility": 0.9872687487567138,
+    "optimality": 0.9811020489357469,
+    "exact_match": 0.9747364233141038,
+    "avg_distance_to_goal": 0.0,
+    "error_distribution": {
+      "none": 4963,
+      "obstacle": 64
+    }
+  },
+  "OOD_5x5": {
+    "total": 3689,
+    "success_rate": 0.9815668202764977,
+    "feasibility": 0.9815668202764977,
+    "optimality": 0.9777717538628354,
+    "exact_match": 0.9739766874491732,
+    "avg_distance_to_goal": 0.0,
+    "error_distribution": {
+      "none": 3621,
+      "out_of_bounds": 22,
+      "obstacle": 46
+    }
+  },
+  "OOD_7x7": {
+    "total": 3750,
+    "success_rate": 0.5477333333333333,
+    "feasibility": 0.8650666666666667,
+    "optimality": 0.5357333333333333,
+    "exact_match": 0.5149333333333334,
+    "avg_distance_to_goal": 0.8828606658446363,
+    "error_distribution": {
+      "none": 2054,
+      "wrong_end": 1190,
+      "out_of_bounds": 253,
+      "obstacle": 253
+    }
+  },
+  "OOD_6x6_dense": {
+    "total": 4114,
+    "success_rate": 0.8959649975692756,
+    "feasibility": 0.8959649975692756,
+    "optimality": 0.8881866796305299,
+    "exact_match": 0.8750607681088964,
+    "avg_distance_to_goal": 0.0,
+    "error_distribution": {
+      "obstacle": 418,
+      "none": 3686,
+      "out_of_bounds": 10
+    }
+  },
+  "OOD_novel": {
+    "total": 1500,
+    "success_rate": 0.11666666666666667,
+    "feasibility": 0.4093333333333333,
+    "optimality": 0.10133333333333333,
+    "exact_match": 0.084,
+    "avg_distance_to_goal": 4.687296416938111,
+    "error_distribution": {
+      "obstacle": 661,
+      "out_of_bounds": 225,
+      "wrong_end": 439,
+      "none": 175
+    },
+    "per_size": {
+      "8": {
+        "total": 300,
+        "success_rate": 0.33,
+        "feasibility": 0.6733333333333333,
+        "optimality": 0.29333333333333333,
+        "exact_match": 0.26,
+        "avg_distance_to_goal": 1.4801980198019802,
+        "error_distribution": {
+          "none": 99,
+          "obstacle": 80,
+          "wrong_end": 103,
+          "out_of_bounds": 18
+        }
+      },
+      "9": {
+        "total": 300,
+        "success_rate": 0.17,
+        "feasibility": 0.5066666666666667,
+        "optimality": 0.14666666666666667,
+        "exact_match": 0.10333333333333333,
+        "avg_distance_to_goal": 2.611842105263158,
+        "error_distribution": {
+          "obstacle": 101,
+          "wrong_end": 101,
+          "out_of_bounds": 47,
+          "none": 51
+        }
+      },
+      "11": {
+        "total": 300,
+        "success_rate": 0.07,
+        "feasibility": 0.3466666666666667,
+        "optimality": 0.06,
+        "exact_match": 0.05,
+        "avg_distance_to_goal": 4.375,
+        "error_distribution": {
+          "out_of_bounds": 47,
+          "wrong_end": 83,
+          "obstacle": 149,
+          "none": 21
+        }
+      },
+      "14": {
+        "total": 300,
+        "success_rate": 0.01,
+        "feasibility": 0.2966666666666667,
+        "optimality": 0.006666666666666667,
+        "exact_match": 0.006666666666666667,
+        "avg_distance_to_goal": 8.842696629213483,
+        "error_distribution": {
+          "wrong_end": 86,
+          "obstacle": 149,
+          "out_of_bounds": 62,
+          "none": 3
+        }
+      },
+      "20": {
+        "total": 300,
+        "success_rate": 0.0033333333333333335,
+        "feasibility": 0.22333333333333333,
+        "optimality": 0.0,
+        "exact_match": 0.0,
+        "avg_distance_to_goal": 14.029850746268657,
+        "error_distribution": {
+          "obstacle": 182,
+          "wrong_end": 66,
+          "out_of_bounds": 51,
+          "none": 1
+        }
+      }
+    }
+  }
+}

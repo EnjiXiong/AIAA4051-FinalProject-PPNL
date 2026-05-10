@@ -1,0 +1,158 @@
+{
+  "ID_seen_6x6": {
+    "total": 2001,
+    "success_rate": 0.5312343828085957,
+    "feasibility": 0.6891554222888556,
+    "optimality": 0.5312343828085957,
+    "exact_match": 0.5307346326836582,
+    "avg_distance_to_goal": 0.24655547498187091,
+    "error_distribution": {
+      "none": 1063,
+      "wrong_end": 316,
+      "obstacle": 526,
+      "out_of_bounds": 96
+    }
+  },
+  "ID_unseen_6x6": {
+    "total": 5027,
+    "success_rate": 0.5508255420728069,
+    "feasibility": 0.695046747563159,
+    "optimality": 0.5508255420728069,
+    "exact_match": 0.5504276904714541,
+    "avg_distance_to_goal": 0.22724670864338867,
+    "error_distribution": {
+      "none": 2769,
+      "wrong_end": 725,
+      "out_of_bounds": 180,
+      "obstacle": 1353
+    }
+  },
+  "OOD_5x5": {
+    "total": 3689,
+    "success_rate": 0.6129032258064516,
+    "feasibility": 0.7397668744917322,
+    "optimality": 0.6129032258064516,
+    "exact_match": 0.6120899972892383,
+    "avg_distance_to_goal": 0.17955294979846098,
+    "error_distribution": {
+      "none": 2261,
+      "wrong_end": 468,
+      "obstacle": 869,
+      "out_of_bounds": 91
+    }
+  },
+  "OOD_7x7": {
+    "total": 3750,
+    "success_rate": 0.4898666666666667,
+    "feasibility": 0.7149333333333333,
+    "optimality": 0.4898666666666667,
+    "exact_match": 0.48933333333333334,
+    "avg_distance_to_goal": 0.36367027228646026,
+    "error_distribution": {
+      "obstacle": 856,
+      "none": 1837,
+      "wrong_end": 844,
+      "out_of_bounds": 213
+    }
+  },
+  "OOD_6x6_dense": {
+    "total": 4114,
+    "success_rate": 0.3988818667963053,
+    "feasibility": 0.49829849295089934,
+    "optimality": 0.3988818667963053,
+    "exact_match": 0.3949927078269324,
+    "avg_distance_to_goal": 0.22,
+    "error_distribution": {
+      "obstacle": 2003,
+      "none": 1641,
+      "wrong_end": 409,
+      "out_of_bounds": 61
+    }
+  },
+  "OOD_novel": {
+    "total": 1500,
+    "success_rate": 0.17133333333333334,
+    "feasibility": 0.35333333333333333,
+    "optimality": 0.17133333333333334,
+    "exact_match": 0.17133333333333334,
+    "avg_distance_to_goal": 1.2188679245283018,
+    "error_distribution": {
+      "obstacle": 879,
+      "none": 257,
+      "wrong_end": 273,
+      "out_of_bounds": 91
+    },
+    "per_size": {
+      "8x8": {
+        "total": 300,
+        "success_rate": 0.36333333333333334,
+        "feasibility": 0.53,
+        "optimality": 0.36333333333333334,
+        "exact_match": 0.36333333333333334,
+        "avg_distance_to_goal": 0.33962264150943394,
+        "error_distribution": {
+          "obstacle": 129,
+          "wrong_end": 50,
+          "none": 109,
+          "out_of_bounds": 12
+        }
+      },
+      "9x9": {
+        "total": 300,
+        "success_rate": 0.23,
+        "feasibility": 0.42,
+        "optimality": 0.23,
+        "exact_match": 0.23,
+        "avg_distance_to_goal": 0.5396825396825397,
+        "error_distribution": {
+          "obstacle": 163,
+          "none": 69,
+          "wrong_end": 57,
+          "out_of_bounds": 11
+        }
+      },
+      "11x11": {
+        "total": 300,
+        "success_rate": 0.16666666666666666,
+        "feasibility": 0.37666666666666665,
+        "optimality": 0.16666666666666666,
+        "exact_match": 0.16666666666666666,
+        "avg_distance_to_goal": 0.7610619469026548,
+        "error_distribution": {
+          "obstacle": 175,
+          "none": 50,
+          "wrong_end": 63,
+          "out_of_bounds": 12
+        }
+      },
+      "14x14": {
+        "total": 300,
+        "success_rate": 0.08333333333333333,
+        "feasibility": 0.23333333333333334,
+        "optimality": 0.08333333333333333,
+        "exact_match": 0.08333333333333333,
+        "avg_distance_to_goal": 1.1428571428571428,
+        "error_distribution": {
+          "obstacle": 203,
+          "out_of_bounds": 27,
+          "wrong_end": 45,
+          "none": 25
+        }
+      },
+      "20x20": {
+        "total": 300,
+        "success_rate": 0.013333333333333334,
+        "feasibility": 0.20666666666666667,
+        "optimality": 0.013333333333333334,
+        "exact_match": 0.013333333333333334,
+        "avg_distance_to_goal": 5.774193548387097,
+        "error_distribution": {
+          "obstacle": 209,
+          "wrong_end": 58,
+          "none": 4,
+          "out_of_bounds": 29
+        }
+      }
+    }
+  }
+}

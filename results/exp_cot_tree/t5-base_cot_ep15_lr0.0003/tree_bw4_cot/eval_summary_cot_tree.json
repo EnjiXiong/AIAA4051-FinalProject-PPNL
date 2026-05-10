@@ -1,0 +1,132 @@
+{
+  "ID_seen_6x6": {
+    "total": 2001,
+    "success_rate": 1.0,
+    "feasibility": 1.0,
+    "optimality": 0.9950024987506247,
+    "exact_match": 0.9905047476261869,
+    "avg_distance_to_goal": 0.0,
+    "error_distribution": {
+      "none": 2001
+    }
+  },
+  "ID_unseen_6x6": {
+    "total": 5027,
+    "success_rate": 1.0,
+    "feasibility": 1.0,
+    "optimality": 0.9928386711756515,
+    "exact_match": 0.9840859359458922,
+    "avg_distance_to_goal": 0.0,
+    "error_distribution": {
+      "none": 5027
+    }
+  },
+  "OOD_5x5": {
+    "total": 3689,
+    "success_rate": 1.0,
+    "feasibility": 1.0,
+    "optimality": 0.9962049335863378,
+    "exact_match": 0.9894280292762266,
+    "avg_distance_to_goal": 0.0,
+    "error_distribution": {
+      "none": 3689
+    }
+  },
+  "OOD_7x7": {
+    "total": 3750,
+    "success_rate": 0.9986666666666667,
+    "feasibility": 1.0,
+    "optimality": 0.9312,
+    "exact_match": 0.8285333333333333,
+    "avg_distance_to_goal": 0.010933333333333333,
+    "error_distribution": {
+      "none": 3745,
+      "wrong_end": 5
+    }
+  },
+  "OOD_6x6_dense": {
+    "total": 4114,
+    "success_rate": 1.0,
+    "feasibility": 1.0,
+    "optimality": 0.9832280019445795,
+    "exact_match": 0.9584346135148274,
+    "avg_distance_to_goal": 0.0,
+    "error_distribution": {
+      "none": 4114
+    }
+  },
+  "OOD_novel": {
+    "total": 1500,
+    "success_rate": 0.7926666666666666,
+    "feasibility": 1.0,
+    "optimality": 0.42333333333333334,
+    "exact_match": 0.25866666666666666,
+    "avg_distance_to_goal": 2.6466666666666665,
+    "error_distribution": {
+      "none": 1189,
+      "wrong_end": 311
+    },
+    "per_size": {
+      "8": {
+        "total": 300,
+        "success_rate": 0.9766666666666667,
+        "feasibility": 1.0,
+        "optimality": 0.7666666666666667,
+        "exact_match": 0.5833333333333334,
+        "avg_distance_to_goal": 0.17,
+        "error_distribution": {
+          "none": 293,
+          "wrong_end": 7
+        }
+      },
+      "9": {
+        "total": 300,
+        "success_rate": 0.96,
+        "feasibility": 1.0,
+        "optimality": 0.57,
+        "exact_match": 0.3466666666666667,
+        "avg_distance_to_goal": 0.33,
+        "error_distribution": {
+          "none": 288,
+          "wrong_end": 12
+        }
+      },
+      "11": {
+        "total": 300,
+        "success_rate": 0.8833333333333333,
+        "feasibility": 1.0,
+        "optimality": 0.45,
+        "exact_match": 0.22666666666666666,
+        "avg_distance_to_goal": 1.1833333333333333,
+        "error_distribution": {
+          "none": 265,
+          "wrong_end": 35
+        }
+      },
+      "14": {
+        "total": 300,
+        "success_rate": 0.6733333333333333,
+        "feasibility": 1.0,
+        "optimality": 0.20333333333333334,
+        "exact_match": 0.1,
+        "avg_distance_to_goal": 3.513333333333333,
+        "error_distribution": {
+          "none": 202,
+          "wrong_end": 98
+        }
+      },
+      "20": {
+        "total": 300,
+        "success_rate": 0.47,
+        "feasibility": 1.0,
+        "optimality": 0.12666666666666668,
+        "exact_match": 0.03666666666666667,
+        "avg_distance_to_goal": 8.036666666666667,
+        "error_distribution": {
+          "wrong_end": 159,
+          "none": 141
+        }
+      }
+    }
+  }
+}
