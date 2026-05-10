@@ -1,5 +1,7 @@
 # AIAA 4051 Final Project — Grid Path Planning with Language Models
 
+**Languages:** **English** · [中文](README.zh-CN.md)
+
 Prompting and fine-tuning seq2seq language models (T5, BART, Flan-T5) on the
 **PPNL single-goal grid path planning benchmark** (Aghzal et al., ICLR 2024
 Workshop). Given a natural-language description of a grid world, the model must
