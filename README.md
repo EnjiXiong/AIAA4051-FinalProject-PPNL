@@ -215,10 +215,6 @@ five Flan-T5 prompting strategies on `ID_seen_6x6` and `OOD_7x7`. Set
 `--input_format` is inferred by substring-matching the run-name (`structured`,
 `cot`, else `vanilla`).
 
-**`CLAUDE.md`** — Concise architectural orientation for Claude Code agents
-working in this repo. Same content as the file-by-file walkthrough above but
-tighter and aimed at LLM consumers.
-
 ---
 
 ## Data layout (`data/`)
