@@ -9,14 +9,17 @@ Usage:
 import argparse
 import json
 import os
+import random
 import time
 from pathlib import Path
 
+import numpy as np
 import torch
 from torch.utils.data import DataLoader
 from transformers import (
     AutoTokenizer, AutoModelForSeq2SeqLM,
-    get_linear_schedule_with_warmup
+    get_linear_schedule_with_warmup,
+    set_seed,
 )
 
 from data_utils import PPNLDataset, load_ppnl_data, extract_actions_from_cot
@@ -61,7 +64,10 @@ def parse_args():
     parser.add_argument('--eval_every', type=int, default=1,
                         help='Evaluate every N epochs')
     parser.add_argument('--save_best', action='store_true', default=True)
-    
+    parser.add_argument('--seed', type=int, default=None,
+                        help='Seed for torch / numpy / random / dataloader. '
+                             'If set, the run_name is suffixed with _seedN.')
+
     return parser.parse_args()
 
 
@@ -97,10 +103,22 @@ def train(args):
     if device.type == 'cuda':
         print(f"GPU: {torch.cuda.get_device_name(0)}")
         print(f"GPU Memory: {torch.cuda.get_device_properties(0).total_memory / 1e9:.1f} GB")
-    
-    # Model name for saving
+
+    # Seeding (optional; preserves unseeded behavior when --seed not passed)
+    if args.seed is not None:
+        set_seed(args.seed)
+        random.seed(args.seed)
+        np.random.seed(args.seed)
+        torch.manual_seed(args.seed)
+        if device.type == 'cuda':
+            torch.cuda.manual_seed_all(args.seed)
+        print(f"Seed: {args.seed}")
+
+    # Model name for saving (suffix with _seedN when seed is set)
     model_short = args.model.split('/')[-1]
     run_name = f"{model_short}_{args.input_format}_ep{args.epochs}_lr{args.lr}"
+    if args.seed is not None:
+        run_name = f"{run_name}_seed{args.seed}"
     save_dir = Path(args.output_dir) / run_name
     save_dir.mkdir(parents=True, exist_ok=True)
     
