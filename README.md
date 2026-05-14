@@ -280,26 +280,3 @@ We thank the authors of PPNL [1] for releasing the benchmark, the data, and a cl
 [6] J. Schulman, F. Wolski, P. Dhariwal, A. Radford, O. Klimov. *Proximal Policy Optimization Algorithms.* arXiv:1707.06347, 2017.
 
 ---
-
-## Citation
-
-If you find this project useful, please cite the underlying benchmark and (if relevant to your work) this project:
-
-```bibtex
-@inproceedings{aghzal2024can,
-  title     = {Can Large Language Models be Good Path Planners? A Benchmark and
-               Investigation on Spatial-temporal Reasoning},
-  author    = {Aghzal, Mohamed and Plaku, Erion and Yao, Ziyu},
-  booktitle = {ICLR 2024 Workshop on Large Language Model (LLM) Agents},
-  year      = {2024}
-}
-
-@misc{xiong2026ppnl,
-  title        = {Can Small Seq2Seq Models Plan? Supervised Fine-Tuning, GRPO,
-                  and Executor-Guarded Tree Search for Grid Path Planning},
-  author       = {EnjiXiong and team},
-  year         = {2026},
-  howpublished = {AIAA 4051 Final Research Project},
-  url          = {https://github.com/EnjiXiong/AIAA4051-FinalProject-PPNL}
-}
-```
